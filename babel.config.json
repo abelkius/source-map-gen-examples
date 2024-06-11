@@ -1,0 +1,8 @@
+{
+    "minified": true,
+    "sourceMaps": "both",
+    "targets": {
+        "chrome": "58",
+        "ie": "11"
+    }
+}

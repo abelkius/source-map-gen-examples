@@ -1,0 +1,10 @@
+{
+    "minify": true,
+    "sourceMaps": true,
+    "env": {
+        "targets": {
+            "chrome": "58",
+            "ie": "11"
+        }
+    }
+}
