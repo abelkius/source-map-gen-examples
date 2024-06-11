@@ -1,12 +1,1 @@
-{
-    "version": 3,
-    "sources": [
-        "../src/example.js"
-    ],
-    "names": [],
-    "mappings": "AAAA,SAAS,MACP,OAAO,EACT,CACA,SAAS,MACP,OAAO,EACT,CACA,MACA",
-    "file": "example-swc.js",
-    "sourcesContent": [
-        "function foo() {\n  return 42;\n}\nfunction bar() {\n  return 24;\n}\nfoo();\nbar();"
-    ]
-}
+{"version":3,"sources":["../src/example.js"],"names":[],"mappings":"AAAA,SAAS,IACP,OAAO,EACT,CACA,SAAS,IACP,OAAO,EACT,CACA,IACA,IAEA,AAAC,CAAA,WACC,IACA,GACF,CAAA","file":"example-swc.js","sourcesContent":["function foo() {\n  return 42;\n}\nfunction bar() {\n  return 24;\n}\nfoo();\nbar();\n\n(() => {\n  foo();\n  bar();\n})();"]}

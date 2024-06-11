@@ -1,16 +1,1 @@
-{
-    "version": 3,
-    "file": "example-babel.js",
-    "names": [
-        "foo",
-        "bar"
-    ],
-    "sources": [
-        "../src/example.js"
-    ],
-    "sourcesContent": [
-        "function foo() {\n  return 42;\n}\nfunction bar() {\n  return 24;\n}\nfoo();\nbar();"
-    ],
-    "mappings": "AAAA,QAAS,CAAAA,GAAGA,CAAA,CAAG,CACb,MAAO,GACT,CACA,QAAS,CAAAC,GAAGA,CAAA,CAAG,CACb,MAAO,GACT,CACAD,GAAG,CAAC,CAAC,CACLC,GAAG,CAAC,CAAC",
-    "ignoreList": []
-}
+{"version":3,"file":"example-babel.js","names":["foo","bar"],"sources":["../src/example.js"],"sourcesContent":["function foo() {\n  return 42;\n}\nfunction bar() {\n  return 24;\n}\nfoo();\nbar();\n\n(() => {\n  foo();\n  bar();\n})();"],"mappings":"aAAA,QAAS,CAAAA,CAAGA,CAAA,CAAG,CACb,MAAO,GACT,CACA,QAAS,CAAAC,CAAGA,CAAA,CAAG,CACb,MAAO,GACT,CACAD,CAAG,CAAC,CAAC,CACLC,CAAG,CAAC,CAAC,CAEL,CAAC,UAAM,CACLD,CAAG,CAAC,CAAC,CACLC,CAAG,CAAC,CACN,CAAC,EAAE,CAAC","ignoreList":[]}

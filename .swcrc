@@ -1,5 +1,10 @@
 {
     "minify": true,
+    "jsc": {
+        "minify": {
+          "mangle": true
+        }
+    },
     "sourceMaps": true,
     "env": {
         "targets": {

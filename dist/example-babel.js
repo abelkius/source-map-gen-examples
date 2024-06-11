@@ -1,2 +1,1 @@
-function foo(){return 42}function bar(){return 24}foo();bar();
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJmb28iLCJiYXIiXSwic291cmNlcyI6WyIuLi9zcmMvZXhhbXBsZS5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJmdW5jdGlvbiBmb28oKSB7XG4gIHJldHVybiA0Mjtcbn1cbmZ1bmN0aW9uIGJhcigpIHtcbiAgcmV0dXJuIDI0O1xufVxuZm9vKCk7XG5iYXIoKTsiXSwibWFwcGluZ3MiOiJBQUFBLFFBQVMsQ0FBQUEsR0FBR0EsQ0FBQSxDQUFHLENBQ2IsTUFBTyxHQUNULENBQ0EsUUFBUyxDQUFBQyxHQUFHQSxDQUFBLENBQUcsQ0FDYixNQUFPLEdBQ1QsQ0FDQUQsR0FBRyxDQUFDLENBQUMsQ0FDTEMsR0FBRyxDQUFDLENBQUMiLCJpZ25vcmVMaXN0IjpbXX0=
+"use strict";function a(){return 42}function b(){return 24}a();b();(function(){a();b()})();

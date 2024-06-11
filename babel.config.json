@@ -1,8 +1,13 @@
 {
     "minified": true,
-    "sourceMaps": "both",
-    "targets": {
-        "chrome": "58",
-        "ie": "11"
-    }
+    "sourceMaps": true,
+    "presets": [
+        ["@babel/preset-env",{
+            "targets": {
+                "chrome": "58",
+                "ie": "11"
+            }
+        }]
+    ],
+    "plugins": [["minify-mangle-names", { "topLevel": true }]]
 }

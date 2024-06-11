@@ -6,3 +6,8 @@ function bar() {
 }
 foo();
 bar();
+
+(() => {
+  foo();
+  bar();
+})();

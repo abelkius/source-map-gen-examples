@@ -1,3 +1,3 @@
-function foo(){return 42}function bar(){return 24}foo();bar();
+function n(){return 42}function t(){return 24}n();t();(function(){n();t()})();
 
 //# sourceMappingURL=example-swc.js.map
